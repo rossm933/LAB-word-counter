@@ -1,1 +1,31 @@
+body {
+  text-align: center;
+  width: 90%;
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+textarea {
+  width: 100%;
+  height: auto;
+  
+}
+
+::placeholder {
+  color: blue;
+}
+
+button {
+  background-color: green;
+  color: white;
+  padding: 5px;
+  font-size: 1.5em;
+  display: flex;
+  justify-content: start;
+  margin-right: 5px;
+}
+.bbtn {
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 5 px;
+}
